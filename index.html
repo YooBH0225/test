@@ -43,6 +43,9 @@
             <a class="nav-link js-scroll-trigger" href="#services">About Me</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">Skill&Tool</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#portfolio">Project</a>
           </li>
           <li class="nav-item">
@@ -65,14 +68,14 @@
   </header>
 
   <!-- Services -->
-  <section class="page-section" id="services">
+  <section class="page-section bg-light" id="services">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">자기소개</h2>
           <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae id officiis nulla, tempore incidunt porro pariatur eius quas nesciunt explicabo possimus voluptas repellat necessitatibus eveniet tempora? Adipisci tenetur consequatur distinctio.</h3>
-          <div class="team-member">
-            <div style="text-align: left; display: inline-block;">
+          <div class="team-member" style="text-align: left;">
+            <div style="text-align: left; display: inline-block; margin-left: 30px; ">
               <h4>정보</h4>
               <p class="text-muted" style="font-size: 20px;">이름: 유병현</p>
               <p class="text-muted" style="font-size: 20px;">생년월일: 1996.01.12</p>
@@ -81,48 +84,73 @@
               <p class="text-muted" style="font-size: 20px;">자격증: 1996.01.12</p>
               <p class="text-muted" style="font-size: 20px;">자격증: 1996.01.12</p>
             </div>
+            
             <div style="float: right; padding-top: 50px;">
               <img class="mx-auto rounded-circle" src="img/2.jpg" alt="">
             </div>
+
           </div>
         </div>
       </div>
-      <div class="row text-center" style="padding-top: 75px;">
-        <span class="fa-stack fa-4x">
-          <i class="fas fa-circle fa-stack-2x text-primary"></i>
-          <i class="fa-stack-1x fa-inverse">Skill</i>
-        </span>
+
+    </div>
+  </section>
+
+
+  <!-- About -->
+  <section class="page-section" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">기술&툴</h2>
+          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae id officiis nulla, tempore incidunt porro pariatur eius quas nesciunt explicabo possimus voluptas repellat necessitatibus eveniet tempora? Adipisci tenetur consequatur distinctio.</h3>
+          <div class="team-member" style="text-align: left;">
+   
+            
+          </div>
+        </div>
       </div>
-        <div>
-          <h4 class="service-heading text-muted" style="display: inline-block; margin-left: 20px;"><i style="font-size: 1.5em; color: #FFA738;" class="fas fa-database"></i> SQL</h4>
-          <h4 class="service-heading text-muted" style="display: inline-block; margin-left: 20px;"><i style="font-size: 1.5em; color: #FFA738;" class="fab fa-java"></i> Java</h4>
-          <h4 class="service-heading text-muted" style="display: inline-block; margin-left: 20px;">JDBC</h4>
+
+      
+        <div class="row text-center" style="padding-top: 75px; margin-bottom: -80px;">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x" style="color: #005542;"></i>
+            <i class="fa-stack-1x fa-inverse" >Skill</i>
+          </span>
         </div>
-        <div>
-          <h4 class="service-heading text-muted" style="display: inline-block; margin-left: 20px;"><i style="font-size: 1.5em; color: #FFA738;" class="fab fa-html5"></i> HTML5</h4>
-          <h4 class="service-heading text-muted" style="display: inline-block; margin-left: 20px;"><i style="font-size: 1.5em; color: #FFA738;" class="fab fa-css3-alt"></i> CSS</h4>
-          <h4 class="service-heading text-muted" style="display: inline-block; margin-left: 20px;"><i style="font-size: 1.5em; color: #FFA738;" class="fab fa-js"></i> JavaScript</h4>
-          <h4 class="service-heading text-muted" style="display: inline-block; margin-left: 20px;"><i style="font-size: 1.5em; color: #FFA738;" class="fab fa-bootstrap"></i> Bootstrap</h4>
-          <h4 class="service-heading text-muted" style="display: inline-block; margin-left: 20px;">jQuery</h4>
+
+        <div id="chartdiv"></div>
+        <div style="width: 70px; height: 30px; transform: translate(0px,-30px); background-color: white;" ></div>
+        
+        <div style="text-align: center; margin-top: -80px; transform: translate(0,0);">
+          <h5 class="service-heading text-muted" style="display: inline-block; margin-left: 20px;"><i style="font-size: 1.2em; color: #1c819e;" class="fas fa-database"></i> SQL</h5>
+          <h5 class="service-heading text-muted" style="display: inline-block; margin-left: 20px;"><i style="font-size: 1.2em; color: #1c819e;" class="fab fa-java"></i> Java</h5>
+          <h5 class="service-heading text-muted" style="display: inline-block; margin-left: 20px;"><i style="font-size: 1.2em; color: #1c819e;" class="fas fa-link"></i> JDBC</h5>
+          <h5 class="service-heading text-muted" style="display: inline-block; margin-left: 20px;"><i style="font-size: 1.2em; color: #1c819e;" class="fab fa-html5"></i> HTML5</h5>
+          <h5 class="service-heading text-muted" style="display: inline-block; margin-left: 20px;"><i style="font-size: 1.2em; color: #1c819e;" class="fab fa-css3-alt"></i> CSS</h5>
+          <h5 class="service-heading text-muted" style="display: inline-block; margin-left: 20px;"><i style="font-size: 1.2em; color: #1c819e;" class="fab fa-js"></i> JavaScript</h5>
+          <h5 class="service-heading text-muted" style="display: inline-block; margin-left: 20px;"><i style="font-size: 1.2em; color: #1c819e;" class="fas fa-question-circle"></i> jQuery</h5>
+          <h5 class="service-heading text-muted" style="display: inline-block; margin-left: 20px;"><i style="font-size: 1.2em; color: #1c819e;" class="fab fa-bootstrap"></i> Bootstrap</h5>
         </div>
-      <div style="text-align: right;">
+
+      <div style="text-align: right; margin-top: 80px;">
         <span class="fa-stack fa-4x" style="margin-right: -15px;">
-          <i class="fas fa-circle fa-stack-2x text-primary"></i>
+          <i class="fas fa-circle fa-stack-2x" style="color: #005542;"></i>
           <i class="fa-stack-1x fa-inverse">Tool</i>
         </span>
       </div>
-        <div style="text-align: right;">
-          <h4 class="service-heading text-muted" style="display: inline-block; margin-right: 20px;">Eclipse</h4>
-          <h4 class="service-heading text-muted" style="display: inline-block; margin-right: 20px;">Oracle</h4>
-          <h4 class="service-heading text-muted" style="display: inline-block; margin-right: 20px;">Visual-Studio-Code</h4>
+        <div style="text-align: right;" >
+          <h5 class="service-heading text-muted" style="display: inline-block; margin-right: 20px;">Eclipse</h4>
+          <h5 class="service-heading text-muted" style="display: inline-block; margin-right: 20px;">Oracle</h4>
+          <h5 class="service-heading text-muted" style="display: inline-block; margin-right: 20px;">Visual-Studio-Code</h4>
         </div>
         <div style="text-align: right;">
-            <h4 class="service-heading text-muted" style="display: inline-block; margin-right: 20px;">SQL-Developer</h4>
-            <h4 class="service-heading text-muted" style="display: inline-block; margin-right: 20px;">eXERD</h4>
-            <h4 class="service-heading text-muted" style="display: inline-block; margin-right: 20px;">EditPlus</h4>
+            <h5 class="service-heading text-muted" style="display: inline-block; margin-right: 20px;">SQL-Developer</h4>
+            <h5 class="service-heading text-muted" style="display: inline-block; margin-right: 20px;">eXERD</h4>
+            <h5 class="service-heading text-muted" style="display: inline-block; margin-right: 20px;">EditPlus</h4>
         </div>
     </div>
-  </section>
+    </section>
 
   <!-- Portfolio Grid -->
   <section class="bg-light page-section" id="portfolio">
@@ -133,8 +161,8 @@
           <h2 class="section-heading text-uppercase">프로젝트</h2>
           <h3 class="section-subheading text-muted">
             <!-- <i class="fas fa-exclamation-circle" ></i>  -->
-            상세내용은 <span style="color: #FFA738; font-weight: bold;">이미지</span><br>
-            소스는 <span style="color: #FFA738; font-weight: bold;">고양이아이콘</span>을 눌러주세요
+            <span style="color: #1c819e; font-weight: bold;">상세내용</span>은 <span style="color: #005542; font-weight: bold;">이미지</span>를<br>
+            <span style="color: #005542; font-weight: bold;">소스</span>는 <span style="color: #1c819e; font-weight: bold;">고양이아이콘</span>을 눌러주세요
           </h3>
         </div>
       </div>
@@ -151,8 +179,8 @@
             <img class="img-fluid" src="img/portfolio/01-previe.png" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>극한배달</h4>
-            <p class="text-muted">[Console]</p>
+            <h4 style="color: #1c819e;">극한배달</h4>
+            <p style="color: #005542;">[Console]</p>
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
                 <a href="#" style="font-size: 40px;">
@@ -173,8 +201,8 @@
             <img class="img-fluid" src="img/portfolio/02-preview.png" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>쌍용교육센터</h4>
-            <p class="text-muted">[Console]</p>
+            <h4 style="color: #1c819e;">쌍용교육센터</h4>
+            <p style="color: #005542;">[Console]</p>
             <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
                   <a href="#" style="font-size: 40px;">
@@ -291,39 +319,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   <!-- Portfolio Modals -->
 
   <!-- Modal 1 -->
@@ -356,7 +351,7 @@
                     <li data-target="#carouselExampleIndicators stylec" style="background-color: #212529;" data-slide-to="5"></li>
                    
                   </ol>
-
+                  
                   <div class="carousel-inner">
                     <div class="carousel-item active">
                       <img class="d-block w-100" src="img/team/1.jpg">
@@ -616,6 +611,64 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/agency.min.js"></script>
+
+  <!-- Resources -->
+<script src="https://www.amcharts.com/lib/4/core.js"></script>
+<script src="https://www.amcharts.com/lib/4/charts.js"></script>
+<script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
+
+<!-- Chart code -->
+<script>
+  am4core.ready(function() {
+
+  // Themes begin
+  am4core.useTheme(am4themes_animated);
+  // Themes end
+
+  /* Create chart instance */
+  var chart = am4core.create("chartdiv", am4charts.RadarChart);
+
+  /* Add data */
+  chart.data = [{
+    "country": "SQL",
+    "litres": 85
+  }, {
+    "country": "Java",
+    "litres": 95
+  }, {
+    "country": "JDBC",
+    "litres": 65
+  }, {
+    "country": "HTML5",
+    "litres": 85
+  }, {
+    "country": "CSS",
+    "litres": 75
+  }, {
+    "country": "JavaScript",
+    "litres": 90
+  }, {
+    "country": "Bootstrap",
+    "litres": 75
+  }];
+
+  /* Create axes */
+  var categoryAxis = chart.xAxes.push(new am4charts.CategoryAxis());
+  categoryAxis.dataFields.category = "country";
+
+  var valueAxis = chart.yAxes.push(new am4charts.ValueAxis());
+  valueAxis.renderer.axisFills.template.fill = chart.colors.getIndex(2);
+  valueAxis.renderer.axisFills.template.fillOpacity = 0.05;
+
+  /* Create and configure series */
+  var series = chart.series.push(new am4charts.RadarSeries());
+  series.dataFields.valueY = "litres";
+  series.dataFields.categoryX = "country";
+  series.name = "Sales";
+  series.strokeWidth = 3;
+
+  }); // end am4core.ready()
+  </script>
 
 </body>
 
